@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import DatePicker from "react-datepicker"
+import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { Sale } from "../../models/sale";
 import { BASE_URL } from "../../utils/request";
@@ -81,8 +81,8 @@ function SalesCard() {
 
                 </table>
             </div>
-        </div>
 
+        </div>
     )
 }
 
